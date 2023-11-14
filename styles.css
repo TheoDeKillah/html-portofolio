@@ -1,0 +1,43 @@
+body {
+    background-color: #FAF8ED;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{border: 5px solid black;}
+header {
+    border: solid #748E63;
+    text-align: center;
+    padding: 10px;
+    background-color: #F9B572;
+    color: #748E63;
+}
+h1{font-family: 'Hind Vadodara', sans-serif; font-family: 'Libre Baskerville', serif;}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #99B080;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #F9B572;
+    color: #748E63;
+}
+.product{
+    border: 1px solid #99B080;
+    padding: 10px;
+    margin-bottom: 20px;}
+.service {
+    border: 1px solid #99B080;
+    padding: 10px;
+    margin-bottom: 20px;}
+section {
+    margin: 20px 0;}
+.site{
+    padding-left: 1000px;
+}
+.map{
+    margin-top: -300px;
+    padding-bottom: 50px;
+}
+p{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}

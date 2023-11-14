@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <link rel="icon" href="./icon.png" type="image/png">
+    <meta charset="UTF-8">
+    <title>TeoTelecom</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@500&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <script>
+        function changeVideo(videoId) {
+            var iframe = document.getElementById('youtube-video');
+            iframe.src = 'https://www.youtube.com/embed/' + videoId;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>TeoTelecom</h1>
+        <h3><a href="./products.html">Προϊόντα</a></h3>
+        <h3><a href="./services.html">Υπηρεσίες</a></h3>
+        <h3><a href="./box.html">TeoBox</a></h3>
+        <p><em>Η σχέση σας με το μέλλον</em></p>
+    </header>
+    <div>
+        <h2>Γιατί να μας επιλέξετε;</h2>
+            <ul>
+            <li>Απεριόριστα Δεδομένα σε λογικές τιμές</li>
+            <li>Οικογενειακά πακέτα: Μοιραστείτε λεπτά και δεδομένα ανάμεσα στις συσκευές</li>
+            <li>Αποκλειστικά TeoTelecom τηλέφωνα με 0% χρηματοδότηση</li>
+            <li>Διεθνής περιαγωγή σε προσιτές τιμές</li>
+            <li>Προσαρμόσιμα προγράμματα που ταιριάζουν στις ανάγκες σας</li>
+        </ul>
+    </div>
+    <div class="site">
+        <select onchange="changeVideo(this.value)">
+            <option value="MvXJ79wra7s">ΠΑ.ΠΕΙ.</option>
+            <option value="yR7Vg7viWkU">ΠΛΗΡΟΦΟΡΙΚΗ</option>
+        </select>
+        
+        <iframe id="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/MvXJ79wra7s" frameborder="1" allowfullscreen></iframe>
+    </div>
+    <div class="map">
+        <h2>Η παρουσία μας στην στην Ελλάδα: (Κάντε κλικ στην πόλη!)</h2>
+    <map name="map1">
+        <area
+        href="./stores.html" alt="map athens" shape="rect"
+        coords="355,412,374,431">
+        </map>
+        <img src="./map.png" alt="Image with map" usemap="#map1">
+    </div> 
+       <footer>
+        <p>&copy; 2023 TeoTelecom. All rights reserved.</p>
+        <p><a href="mailto:(theodoros.kytidis@gmail.com)?&body=Πώς μπορώ να σας βοηθήσω;">Επικοινωνήστε μαζί μας για οποιαδήποτε απορία σας!</a></p>
+    </footer>
+
+</body>
+</html>

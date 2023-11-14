@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <link rel="icon" href="./icon.png" type="image/png">
+    <meta charset="UTF-8">
+    <title>TeoBox</title>
+    <style>
+        p{color: #748E63;
+        padding: 5px;
+        font-weight: bolder;
+    }
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #FAF8ED;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: #F9B572;
+            position: absolute;
+            animation: moveSquare 8s linear infinite;
+        }
+        .index{
+            padding-top: 400px;
+            padding-left: 900px;
+            
+        }
+        @keyframes moveSquare {
+            0% {
+                bottom: 0;
+                left: 0;
+            }
+            25% {
+                bottom: 0;
+                left: 0;
+            }
+            50% {
+                top: 0;
+                left: 0;
+            }
+            75% {
+                top: 0;
+                right: 0;
+            }
+            100% {
+                bottom: 0;
+                right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="index">
+        <h3><a href="./index.html">Αρχική</a></h3>   
+    </div>
+    <div class="square"><p>TeoTelecom</p></div>
+
+</body>
+</html>
